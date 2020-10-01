@@ -1,4 +1,4 @@
-## Welcome to GitHub Pagesss
+## The Language of Data
 
 You can use the [editor on GitHub](https://github.com/gbella/languageofdata/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
