@@ -1,5 +1,6 @@
-# The Language of Data trial
-Trial trial!
+---
+title: The Language of Data hello
+---
 
 ## The Language of Data
 
