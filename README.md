@@ -1,3 +1,6 @@
+# The Language of Data trial
+Trial trial!
+
 ## The Language of Data
 
 You can use the [editor on GitHub](https://github.com/gbella/languageofdata/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
