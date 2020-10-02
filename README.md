@@ -14,23 +14,28 @@ Both headers and data values in the dataset above have the following characteris
 * **frequent named entities** (names, postal addresses, dates, URLs);
 * **non-standard orthography** (use of "\_" for token separation, Inconsistent Use of Capitals, frequent abbreviations, etc.);
 * **absence or rarity of certain parts of speech** (e.g. verbs, pronouns);
-* **non-standard syntax** (omission of verbs, prepositions, etc.: _take-away \[is\] possible_).
+* **non-standard syntax** (omission of verbs, prepositions, inverted word order, etc.: _take-away \[is\] possible_, _operate \[an\] uninsured vehicle_, _death country_.
 
 ## Why is this special grammar relevant?
 
-The automated analysis of the text content of vast datasets is crucial in many applications, such as information retrieval (e.g. for meaning-based indexing of content by search engines), data integration, or AI-based data analytics.
+A high-accuracy automated analysis of the textual content of vast datasets is crucial in many applications, such as information retrieval (e.g. for meaning-based indexing of content by search engines), data integration, or AI-based data analytics.
 
 ## Why is it so hard to parse the Language of Data?
 
 State-of-the-art natural language processing tools are trained on standard language (e.g. Wikipedia) or on social media content (e.g. tweets). They analyse text _in context_, looking at a window of preceding and following words and phrases. In the Language of Data, context is short or non-existent, and orthography and syntax are used in specific, non-standard ways. Conventional NLP tools vastly underperform on such text (e.g. 10-40% of F-measure for named entity recognition, 70% of accuracy in classifying parts of speech). The specific grammar of the Language of Data needs specifically designed NLP tools.
 
-## Resources and tools for parsing the Language of Data
+## Resources and tools
 
-TODO
+Our corpora and tools are in their early stages and are under constant development. More resources will follow in the near future.
 
 ### Trained NLP models
 
-TODO
+Name | Version | Task | Language | Accuracy/F1 | Link
+-----|---------|------|----------|-------------|-----
+OpenNLP Tokenizer  | 1.0 | tokenization | English | 96.7% | TODO
+OpenNLP POS Tagger | 1.0 | POS tagging  | English | 85.9% | TODO
+OpenNLP Name Finder| 1.0 | NER          | English | 35.0% | TODO
+BERT-NER           | 1.0 | NER          | English | 67.4% | TODO
 
 ### Annotated corpora
 
@@ -38,7 +43,7 @@ TODO
 
 ## Publications
 
-<div style="background-color: #f0f0c0; padding-left: 5pt; padding-right: 5pt;">
+<div style="background-color: #f0f0c0; padding: 7pt;">
 <p style="font-weight: bold">The main publication supporting our principal hypotheses, please cite this if you use our resources or tools.</p>
 <p>
 <a href="https://www.researchgate.net/publication/344451391_Exploring_the_Language_of_Data" target="_blank">Gábor Bella, Linda Gremes, and Fausto Giunchiglia. <span style="font-weight: bold">Exploring the Language of Data.</span> Proceedings of COLING 2020.</a>
