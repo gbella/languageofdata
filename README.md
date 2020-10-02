@@ -20,21 +20,22 @@ Both headers and data values in the dataset above have the following characteris
 
 The automated analysis of the text content of vast datasets is crucial in many applications, such as information retrieval (e.g. for meaning-based indexing of content by search engines), data integration, or AI-based data analytics.
 
-## What are the challenges of processing text in structured data?
+## Why is it so hard to parse the Language of Data?
 
 State-of-the-art natural language processing tools are trained on standard language consisting of full sentences, e.g. Wikipedia. They analyse text _in context_, looking at a window of preceding and following words and phrases. In the Language of Data, context is short or non-existent, and orthography and syntax are non-standard. Conventional NLP tools vastly underperform on such text (e.g. 10-40% of F-measure for named entity recognition, 70% of accuracy in classifying parts of speech). The specific grammar of the Language of Data needs specifically designed NLP tools.
 
-## Tools for processing the Language of Data
-
-TODO
-
-## Training corpora
+## Resources and tools for processing the Language of Data
 
 TODO
 
 ## Publications
 
-TODO
+The main publication supporting our principal hypotheses, please cite this if you use our resources or tools.
+[Gábor Bella, Linda Gremes, and Fausto Giunchiglia. _Exploring the Language of Data._ Proceedings of COLING 2020.](https://www.researchgate.net/publication/344451391_Exploring_the_Language_of_Data)
+
+An early publication on using NLP mechanisms tailored to the Language of Data in order to perform multilingual and multi-domain word sense disambiguation:
+[Gábor Bella, Alessio Zamboni, and Fausto Giunchiglia. _Domain-Based Sense Disambiguation on Multilingual Structured Data._ Proceedings of the ECAI 2016 workshop on Diversity Aware Artificial Intelligence, The Hague, Netherlands.](http://www.ecai2016.org/content/uploads/2016/08/W13-diversity-2016.pdf#page=59)
+
 
 ## Credits
 
