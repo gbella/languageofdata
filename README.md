@@ -11,7 +11,7 @@ La Bigoudène | 18 rue Vauban, 29200 Brest, France | pancake restaurant | Closed
 Both headers and data values in the dataset above have the following characteristics:
 
 * labels are short, consisting of just a few words;
-* named entities (proper nouns) are frequent;
+* named entities (names, postal addresses, dates, URLs) are frequent;
 * orthography is non-standard (use of "\_" for token separation, Inconsistent Use of Capitals, frequent abbreviations, etc.);
 * some categories of words are rarely or almost never used (e.g. verbs, pronouns);
 * syntax is often non-standard (omission of verbs, prepositions, etc.: _take-away \[is\] possible_).
@@ -22,7 +22,7 @@ The automated analysis of the text content of vast datasets is crucial in many a
 
 ## Why is it so hard to parse the Language of Data?
 
-State-of-the-art natural language processing tools are trained on standard language consisting of full sentences, e.g. Wikipedia. They analyse text _in context_, looking at a window of preceding and following words and phrases. In the Language of Data, context is short or non-existent, and orthography and syntax are non-standard. Conventional NLP tools vastly underperform on such text (e.g. 10-40% of F-measure for named entity recognition, 70% of accuracy in classifying parts of speech). The specific grammar of the Language of Data needs specifically designed NLP tools.
+State-of-the-art natural language processing tools are trained on standard language (e.g. Wikipedia) or on social media content (e.g. tweets). They analyse text _in context_, looking at a window of preceding and following words and phrases. In the Language of Data, context is short or non-existent, and orthography and syntax are used in specific, non-standard ways. Conventional NLP tools vastly underperform on such text (e.g. 10-40% of F-measure for named entity recognition, 70% of accuracy in classifying parts of speech). The specific grammar of the Language of Data needs specifically designed NLP tools.
 
 ## Resources and tools for parsing the Language of Data
 
@@ -41,7 +41,13 @@ An early publication on using NLP mechanisms tailored to the Language of Data in
 
 ## Credits
 
-TODO
+Research on the Language of Data is being carried out at the [Language Diversity Lab](http://knowdive.disi.unitn.it/language-diversity/) of the [KnowDive Research Group](http://knowdive.disi.unitn.it) at the [University of Trento](http://www.unitn.it), Italy.
+
+Contributors:
+
+* [Gábor Bella](http://sites.google.com/site/gaborbellaphd) (lead);
+* prof. [Fausto Giunchiglia](http://disi.unitn.it/~fausto);
+* Linda Gremes.
 
 <!--
 You can use the [editor on GitHub](https://github.com/gbella/languageofdata/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
