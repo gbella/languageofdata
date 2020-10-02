@@ -34,12 +34,15 @@ Name | Version | Task | Language | Accuracy/F1 | Link
 -----|---------|------|----------|-------------|-----
 OpenNLP Tokenizer  | 1.0 | tokenization | English | 96.7% | TODO
 OpenNLP POS Tagger | 1.0 | POS tagging  | English | 85.9% | TODO
-OpenNLP Name Finder| 1.0 | NER          | English | 35.0% | TODO
+OpenNLP Name Finder| 1.0 | NER          | English | 50.8% | TODO
 BERT-NER           | 1.0 | NER          | English | 67.4% | TODO
 
-### Annotated corpora
+### Corpora
 
-TODO
+Name | Description | Language | Nb. labels | Nb. tokens | Link
+-----|-------------|----------|------------|------------|-----
+LoD Open Data English | Hand-annotated labels extracted from English-language Open Data catalogues. Token boundaries, POS and NER tags. | English | 17,289 | 70,825 | TODO
+LoD Open Data Italian | Hand-annotated labels extracted from Italian-language Open Data catalogues. Token boundaries, POS and NER tags. | Italian | 14,277 | 49,240 | TODO
 
 ## Publications
 
