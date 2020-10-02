@@ -38,10 +38,13 @@ TODO
 
 ## Publications
 
-<div style="background-color: #e0e0e0; margin: 5pt;">
-The main publication supporting our principal hypotheses, please cite this if you use our resources or tools.
-
+<div style="background-color: #f0f0c0; padding: 5pt;">
+<p>
+<b>The main publication supporting our principal hypotheses, please cite this if you use our resources or tools.</b>
+</p>
+<p>
 <a href="https://www.researchgate.net/publication/344451391_Exploring_the_Language_of_Data" target="_blank">Gábor Bella, Linda Gremes, and Fausto Giunchiglia. <i>Exploring the Language of Data.</i> Proceedings of COLING 2020.</a>
+</p>
 </div>
 
 An early publication on using NLP mechanisms tailored to the Language of Data in order to perform multilingual and multi-domain word sense disambiguation:
