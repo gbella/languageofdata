@@ -12,17 +12,17 @@ Both headers and data values in the dataset above have the following characteris
 
 * labels are short, consisting of just a few words;
 * named entities (proper nouns) are frequent;
-* orthography is non-standard (use of "\_" for token separation, Non-Standard Capitals, frequent abbreviations, etc.);
+* orthography is non-standard (use of "\_" for token separation, Inconsistent Use of Capitals, frequent abbreviations, etc.);
 * some categories of words are rarely or almost never used (e.g. verbs, pronouns);
 * syntax is often non-standard (omission of verbs, prepositions, etc.: _take-away \[is\] possible_).
 
-## Why is it relevant?
+## Why is this special grammar relevant?
 
-TODO
+The automated analysis of the text content of vast datasets is crucial in many applications, such as information retrieval (e.g. for meaning-based indexing of content by search engines), data integration, or AI-based data analytics.
 
 ## What are the challenges of processing text in structured data?
 
-TODO
+State-of-the-art natural language processing tools are trained on standard language consisting of full sentences, e.g. Wikipedia. They analyse text _in context_, looking at a window of preceding and following words and phrases. In the Language of Data, context is short or non-existent, and orthography and syntax are non-standard. Conventional NLP tools vastly underperform on such text (e.g. 10-40% of F-measure for named entity recognition, 70% of accuracy in classifying parts of speech). The specific grammar of the Language of Data needs specifically designed NLP tools.
 
 ## Tools for processing the Language of Data
 
