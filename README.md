@@ -4,7 +4,7 @@
 We succinctly call _the Language of Data_ the unique grammar of short textual labels that typically appear in structured data. For example:
 
 Name | Full_addr | Type | Notes
---------------------------------
+-----|-----------|------|------
 Pizza Rio | Via della Resistenza, 9/A, 38123 Trento, Italy | pizzeria | take-away possible
 La Bigoudène | 18 rue Vauban, 29200 Brest, France | pancake restaurant | Closed Permanently
 
