@@ -1,7 +1,5 @@
 
-## What is the Language of Data?
-
-We succinctly call _the Language of Data_ the unique grammar of short textual labels that typically appear in structured data. For example:
+We succinctly call the **Language of Data** the unique grammar of short textual labels that typically appear in structured data. For example:
 
 Name | Full_addr | Type | Notes
 -----|-----------|------|------
@@ -22,20 +20,23 @@ A high-accuracy automated analysis of the textual content of vast datasets is cr
 
 ## Why is it so hard to parse the Language of Data?
 
-State-of-the-art natural language processing tools are trained on standard language (e.g. Wikipedia) or on social media content (e.g. tweets). They analyse text _in context_, looking at a window of preceding and following words and phrases. In the Language of Data, context is short or non-existent, and orthography and syntax are used in specific, non-standard ways. Conventional NLP tools vastly underperform on such text (e.g. 10-40% of F-measure for named entity recognition, 70% of accuracy in classifying parts of speech). The specific grammar of the Language of Data needs specifically designed NLP tools.
+State-of-the-art natural language processing tools are trained on regular text (e.g. Wikipedia) or on social media content (e.g. tweets). They analyse text _in context_, looking at a window of preceding and following words and phrases. In the Language of Data, context is short or non-existent, and orthography and syntax are used in specific, non-standard ways. Conventional NLP tools vastly underperform on such text (e.g. 10-40% of F-measure for named entity recognition, 70% of accuracy in classifying parts of speech). The specific grammar of the Language of Data needs specifically designed NLP tools.
 
 ## Resources and tools
 
 Our corpora and tools are in their early stages and are under constant development. More resources will follow in the near future.
+All tools and corpora are licensed under 
 
 ### Trained NLP models
 
 Name | Version | Task | Language | Accuracy/F1 | Link
 -----|---------|------|----------|-------------|-----
-OpenNLP Tokenizer  | 1.0 | tokenization | English | 96.7% | TODO
-OpenNLP POS Tagger | 1.0 | POS tagging  | English | 85.9% | TODO
-OpenNLP Name Finder| 1.0 | NER          | English | 50.8% | TODO
-BERT-NER           | 1.0 | NER          | English | 67.4% | TODO
+LoD OpenNLP Tokenizer  | 1.0 | tokenization | English | 96.7% | TODO
+LoD OpenNLP POS Tagger | 1.0 | POS tagging  | English | 85.9% | TODO
+LoD OpenNLP Name Finder| 1.0 | NER          | English | 50.8% | TODO
+LoD BERT-NER           | 1.0 | NER          | English | 67.4% | TODO
+
+Note that sequence labelling classification tasks such as POS or NER tagging are much harder over the Language of Data, which explains the difference w.r.t. state-of-the-art scores over regular text.
 
 ### Corpora
 
