@@ -6,11 +6,17 @@ We succinctly call _the Language of Data_ the unique grammar of short textual la
 Name | Full_addr | Type | Notes
 --------------------------------
 Pizza Rio | Via della Resistenza, 9/A, 38123 Trento, Italy | pizzeria | take-away possible
-La Bigoudène | 18 rue Vauban, 29200 Brest, France | pancake restaurant | closed permanently
+La Bigoudène | 18 rue Vauban, 29200 Brest, France | pancake restaurant | Closed Permanently
 
+Both headers and data values in the dataset above have the following characteristics:
 
+* labels are short, consisting of just a few words;
+* named entities (proper nouns) are frequent;
+* orthography is non-standard (use of "\_" for token separation, Non-Standard Capitals, frequent abbreviations, etc.);
+* some categories of words are rarely or almost never used (e.g. verbs, pronouns);
+* syntax is often non-standard (omission of verbs, prepositions, etc.: _take-away \[is\] possible_).
 
-## Why is it useful?
+## Why is it relevant?
 
 TODO
 
