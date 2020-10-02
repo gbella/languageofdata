@@ -10,11 +10,11 @@ La Bigoudène | 18 rue Vauban, 29200 Brest, France | pancake restaurant | Closed
 
 Both headers and data values in the dataset above have the following characteristics:
 
-* labels are short, consisting of just a few words;
-* named entities (names, postal addresses, dates, URLs) are frequent;
-* orthography is non-standard (use of "\_" for token separation, Inconsistent Use of Capitals, frequent abbreviations, etc.);
-* some categories of words are rarely or almost never used (e.g. verbs, pronouns);
-* syntax is often non-standard (omission of verbs, prepositions, etc.: _take-away \[is\] possible_).
+* **short labels**, consisting of just a few words;
+* **frequent named entities** (names, postal addresses, dates, URLs);
+* **non-standard orthography** (use of "\_" for token separation, Inconsistent Use of Capitals, frequent abbreviations, etc.);
+* **absence or rarity of certain parts of speech** (e.g. verbs, pronouns);
+* **non-standard syntax** (omission of verbs, prepositions, etc.: _take-away \[is\] possible_).
 
 ## Why is this special grammar relevant?
 
