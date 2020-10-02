@@ -38,12 +38,10 @@ TODO
 
 ## Publications
 
-<div style="background-color: #f0f0c0; padding: 5pt;">
+<div style="background-color: #f0f0c0; padding-left: 5pt; padding-right: 5pt;">
+<p style="font-weight: bold">The main publication supporting our principal hypotheses, please cite this if you use our resources or tools.</p>
 <p>
-<b>The main publication supporting our principal hypotheses, please cite this if you use our resources or tools.</b>
-</p>
-<p>
-<a href="https://www.researchgate.net/publication/344451391_Exploring_the_Language_of_Data" target="_blank">Gábor Bella, Linda Gremes, and Fausto Giunchiglia. <i>Exploring the Language of Data.</i> Proceedings of COLING 2020.</a>
+<a href="https://www.researchgate.net/publication/344451391_Exploring_the_Language_of_Data" target="_blank">Gábor Bella, Linda Gremes, and Fausto Giunchiglia. <span style="font-weight: bold">Exploring the Language of Data.</span> Proceedings of COLING 2020.</a>
 </p>
 </div>
 
