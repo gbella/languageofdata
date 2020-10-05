@@ -1,0 +1,6 @@
+The Language of Data annotated corpora are licensed under the CC BY-NC 4.0 (Attribution-NonCommercial 4.0 International) licence.
+This means that you are free to share and adapt the material for non-commercial purposes only, provided that you give appropriate credit to the authors.
+
+Please see https://creativecommons.org/licenses/by-nc/4.0/ for a full legal description of the licence terms.
+
+Please contact thelanguageofdata@gmail.com for licensing for commercial purposes.
