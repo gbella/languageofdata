@@ -21,13 +21,14 @@ original_string <TAB> annotated_string
 
 The following annotations are provided:
  * tokenisation;
- * part-of-speech tags separated from the words by a space (using the Penn POS tags for English and the ISST-TALN tagset for Italian);
+ * part-of-speech tags separated from the words by a space (using the Penn POS tags for English and the ISST-TANL tagset for Italian);
  * instead of "proper noun" tags, the following named entity tags are provided, using BI notation (joint POS-NER tagging):
     - PER: persons,
     - ORG: organisations,
     - GPE: geopolitical entities and locations,
     - DAT: dates and times,
     - ADD: postal addresses,
+    - PHN: phone numbers,
     - WWW: web addresses,
     - EML: email addresses,
     - MSC: miscellaneous.
