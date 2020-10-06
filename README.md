@@ -1,10 +1,10 @@
 
 We succinctly call the **Language of Data** the unique grammar of short textual labels that typically appear in structured data. For example:
 
-Name | Full_addr | Type | Notes
------|-----------|------|------
-Pizza Rio | Via della Resistenza, 9/A, 38123 Trento, Italy | pizzeria | take-away possible
-La Bigoudène | 18 rue Vauban, 29200 Brest, France | pancake restaurant | Closed Permanently
+<sub>Name</sub> | <sub>Full_addr</sub> | <sub>Type</sub> | <sub>Notes</sub>
+----------------|----------------------|-----------------|-----------------
+<sub>Pizza Rio</sub> | <sub>Via della Resistenza, 9/A, 38123 Trento, Italy</sub> | <sub>pizzeria</sub> | <sub>take-away possible</sub>
+<sub>La Bigoudène</sub> | <sub>18 rue Vauban, 29200 Brest, France</sub> | <sub>pancake restaurant</sub> | <sub>Closed Permanently</sub>
 
 Both headers and data values in the dataset above have the following characteristics:
 
