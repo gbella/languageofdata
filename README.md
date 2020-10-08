@@ -25,7 +25,7 @@ State-of-the-art natural language processing tools are trained on regular text (
 ## Resources and tools
 
 Our corpora and tools are in their early stages and are under constant development. More resources will follow in the near future.
-All tools and corpora are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), meaning that you are free to share and adapt the material for non-commercial purposes, provided that you give appropriate credit to the authors.
+All tools and corpora are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), meaning that you are free to share and adapt the material for non-commercial purposes, provided that you give appropriate credit to the authors. Do not hesitate to [thelanguageofdata@gmail.com](contact us) for individual licensing arrangements. 
 
 ### Trained NLP models
 
@@ -64,7 +64,7 @@ An early publication on using NLP mechanisms tailored to the Language of Data in
 
 ## Credits
 
-Research on the Language of Data is being carried out at the [Language Diversity Lab](http://knowdive.disi.unitn.it/language-diversity/) of the [KnowDive Research Group](http://knowdive.disi.unitn.it) at the [University of Trento](http://www.unitn.it), Italy.
+Research on the Language of Data is being carried out at the [Language Diversity Lab](http://knowdive.disi.unitn.it/language-diversity/) of the [KnowDive Research Group](http://knowdive.disi.unitn.it) at the [University of Trento](http://www.unitn.it), Italy. For any inquiry, do not hesitate to [thelanguageofdata@gmail.com](drop us an email).
 
 Contributors:
 
