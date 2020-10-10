@@ -31,10 +31,10 @@ All tools and corpora are licensed under [CC BY-NC 4.0](https://creativecommons.
 
 Name | Version | Task | Language | Accuracy/F1 | Link
 -----|---------|------|----------|-------------|-----
-LoD OpenNLP Tokenizer  | 1.0 | tokenization | English | 96.7% | TODO
-LoD OpenNLP POS Tagger | 1.0 | POS tagging  | English | 85.9% | TODO
-LoD OpenNLP Name Finder| 1.0 | NER          | English | 50.8% | TODO
-LoD BERT-NER           | 1.0 | NER          | English | 67.4% | TODO
+LoD OpenNLP Tokenizer  | 1.0 | tokenization | English | 96.7% | [Download](https://github.com/gbella/languageofdata/tree/main/download/en_tokenizer_lod.bin)
+LoD OpenNLP POS Tagger | 1.0 | POS tagging  | English | 85.9% | [Download](https://github.com/gbella/languageofdata/tree/main/download/en_postagger_lod.bin)
+LoD OpenNLP Name Finder| 1.0 | NER          | English | 50.8% | [Download](https://github.com/gbella/languageofdata/tree/main/download/en_ner_lod.bin)
+LoD BERT-NER           | 1.0 | NER          | English | 67.4% | coming soon
 
 Note that sequence labelling classification tasks such as POS or NER tagging are much harder over the Language of Data, which explains the difference w.r.t. state-of-the-art scores over regular text.
 
@@ -42,10 +42,10 @@ Note that sequence labelling classification tasks such as POS or NER tagging are
 
 Name | Description | Language | Nb. labels | Nb. tokens | Link
 -----|-------------|----------|------------|------------|-----
-LoD Headers English | Hand-annotated table head labels extracted from English-language Open Data catalogues. Token boundaries, POS and NER tags. | English | 8,558 | 31,127 | [Download](https://github.com/gbella/languageofdata/tree/main/download)
-LoD Data English | Hand-annotated data value labels extracted from English-language Open Data catalogues. Token boundaries, POS and NER tags. | English | 8,731 | 39,698 | [Download](https://github.com/gbella/languageofdata/tree/main/download)
-LoD Headers Italian | Hand-annotated table head labels extracted from Italian-language Open Data catalogues. Token boundaries, POS and NER tags. | Italian | 3,536 | 9,723 | [Download](https://github.com/gbella/languageofdata/tree/main/download)
-LoD Data Italian | Hand-annotated data value labels extracted from Italian-language Open Data catalogues. Token boundaries, POS and NER tags. | Italian | 6,528 | 39,517 | [Download](https://github.com/gbella/languageofdata/tree/main/download)
+LoD Headers English | Hand-annotated table head labels extracted from English-language Open Data catalogues. Token boundaries, POS and NER tags. | English | 8,558 | 31,127 | [Download](https://github.com/gbella/languageofdata/tree/main/download/lod_eng_headers_annotated_0.9.zip)
+LoD Data English | Hand-annotated data value labels extracted from English-language Open Data catalogues. Token boundaries, POS and NER tags. | English | 8,731 | 39,698 | [Download](https://github.com/gbella/languageofdata/tree/main/download/lod_eng_data_annotated_0.9.zip)
+LoD Headers Italian | Hand-annotated table head labels extracted from Italian-language Open Data catalogues. Token boundaries, POS and NER tags. | Italian | 3,536 | 9,723 | [Download](https://github.com/gbella/languageofdata/tree/main/download/lod_ita_headers_annotated_0.9.zip)
+LoD Data Italian | Hand-annotated data value labels extracted from Italian-language Open Data catalogues. Token boundaries, POS and NER tags. | Italian | 6,528 | 39,517 | [Download](https://github.com/gbella/languageofdata/tree/main/download/lod_ita_data_annotated_0.9.zip)
 
 
 ## Publications
