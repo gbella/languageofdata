@@ -68,6 +68,6 @@ Research on the Language of Data is being carried out at the [Language Diversity
 
 Contributors:
 
-* [Gábor Bella](http://sites.google.com/site/gaborbellaphd) (lead);
+* [Gábor Bella](http://sites.google.com/site/gaborbellaphd);
 * prof. [Fausto Giunchiglia](http://disi.unitn.it/~fausto);
 * Linda Gremes.
